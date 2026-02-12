@@ -470,6 +470,9 @@ footer p {
   .btn.fix-w {
     min-width: auto;
   }
+    .title-sm {
+      font-size: 24px;
+    }
 }
 
 @media screen and (max-width: 470px) {
