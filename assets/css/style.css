@@ -470,9 +470,14 @@ footer p {
   .btn.fix-w {
     min-width: auto;
   }
-    .title-sm {
-      font-size: 24px;
-    }
+
+  .title-sm {
+    font-size: 24px;
+  }
+
+  footer p {
+    font-size: 16px;
+  }
 }
 
 @media screen and (max-width: 470px) {
@@ -491,4 +496,15 @@ footer p {
     font-size: 32px;
   }
 
+  .hero-list-desc p,
+  .hero-list-desc li,
+  p,
+  .basic ul li,
+  .cta p,
+  .about .desc {
+    font-size: 18px;
+  }
+    .hero-section {
+      min-height: auto !important;
+    }
 }
